@@ -1,0 +1,43 @@
+name: Core
+version: 0.16
+author: Purp
+main: me.purp.core.Main
+description: Core, custom essentials by Purp.
+
+commands:
+  fly:
+    description: Enables/Disables fly.
+  ch:
+    aliases: corehelp
+    description: Displays a list of commands. 
+  gm:
+    aliases: gamemode
+    description: Sets your gamemode.
+  heal:
+    description: Fills the players health bar.
+  feed:
+    description: Fills the players food bar.
+  motd:
+    description: Message of the day.
+  day:
+    description: Sets time to day.
+  night:
+    description: Sets time to night.
+  sun:
+    description: Sets weather to sunny.
+  rain:
+    description: Sets weather to rainy.
+  spawn:
+    description: Teleports you to spawn location.
+  setspawn:
+    description: Sets spawn location.
+  rules:
+    description: Shows the servers rules.
+  afk:
+    description: Notifies the server of player's afk state.
+  broadcast:
+    aliases: [bc, shout]
+    description: Broadcast your message to the server.
+  cr:
+    aliases: corereload
+    description: Reloads core config.

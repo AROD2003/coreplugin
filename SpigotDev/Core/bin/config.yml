@@ -1,0 +1,79 @@
+# ---Config--- #
+# Module: Core
+# Version: 0.12
+# Author: Purp
+# ---Config--- #
+
+# --Central-- #
+motd: '&7Hello, &9<player>&7!'
+healedMessage: '<cp>&7You have been healed!'
+fedMessage: '<cp>&7You have been fed!'
+timeSetDay: '<cp>&7Time has been set to &9Day&7!'
+timeSetNight: '<cp>&7Time has been set to &9Night&7!'
+weatherSetSun: '<cp>&7Weather has been set to &9Sunny&7!'
+weatherSetRain: '<cp>&7Weather has been set to &9Rainy&7!'
+playerFirstJoin: '&7[&6+&7] &9<player> &7is new, welcome them!'
+playerJoin: '&7[&6+&7] &9<player>'
+playerQuit: '&7[&c-&7] &9<player>'
+chatFrontFormat: '&6'
+chatEndFormat: ' &8&l» &r'
+# --Central-- #
+
+# --Core-- #
+corePrefix: '&8[&6&lCore&8] '
+broadcastEmtpyArgs: '<cp>&7/bc <message>'
+broadcastMessage: '&9Broadcast: '
+nullErrorMessage: '<cp>&cOnly players can execute this command!'
+noPermMessage: '<cp>&cNot enough perms!'
+spawnMessage: '<cp>&7You have been teleported to spawn!'
+setSpawnMessage: '<cp>&7Spawn has been set to your location!'
+coreReloadMessage: '<cp>&6Core &7has been reloaded!'
+afkMessage: ' &7is now afk!'
+notAfkMessage: ' &7is no longer afk!'
+# --Core-- #
+
+# --Fly-- #
+flyingEnabledMessage: '<cp>&7Flying has been &9Enabled&7!'
+flyingDisabledMessage: '<cp>&7Flying has been &cDisabled&7!'
+csFlyErrorMessage: '<cp>&cYou are already in creative/spectator mode!'
+# --Fly-- #
+
+# --Help-- #
+chPrefixMessage: '&8&m--------&r&8&l[&6&lCore Help&8&l]&r&8&m--------'
+chCmdMessage: '&7/ch - Displays this page'
+flyCmdMessage: '&7/fly - Enables/Disables flying'
+healCmdMessage: '&7/heal - Heals the Player'
+feedCmdMessage: '&7/feed - Feeds the player'
+motdCmdMessage: '&7/motd - Message of the day'
+dayCmdMessage: '&7/day - Sets time to day'
+nightCmdMessage: '&7/night - Sets time to night'
+sunCmdMessage: '&7/sun - Sets weather to sunny'
+rainCmdMessage: '&7/rain - Sets weather to rainy'
+spawnCmdMessage: '&7/spawn - Teleports you to spawn'
+setSpawnCmdMessage: '&7/setspawn - Sets the world spawn'
+afkCmdMessage: '&7/afk - Tells the server you are afk'
+bcCmdMessage: '&7/bc - Broadcasts the the server'
+chPrefixMessage2: '&8&m--------&r&8&l[&6&lCore Help&8&l]&r&8&m--------'
+# --Help-- #
+
+# --Gamemode-- #
+gameModeEmptyArgs: '<cp>&7Please use &9/gm <gamemode>'
+gameModeSetCreative: '<cp>&7Your gamemode has been updated to &9Creative&7!'
+gameModeErrorCreative: '<cp>&7Your gamemode is already set to &9Creative&7!'
+gameModeSetSurvival: '<cp>&7Your gamemode has been updated to &9Survival&7!'
+gameModeErrorSurvival: '<cp>&7Your gamemode is already set to &9Survival&7!'
+gameModeSetAdventure: '<cp>&7Your gamemode has been updated to &9Adventure&7!'
+gameModeErrorAdventure: '<cp>&7Your gamemode is already set to &9Adventure&7!'
+gameModeSetSpectator: '<cp>&7Your gamemode has been updated to &9Spectator&7!'
+gameModeErrorSpectator: '<cp>&7Your gamemode is already set to &9Spectator&7!'
+# --Gamemode-- #
+
+# --Rules-- #
+rulesPrefix: '&8&m--------&r&8&l[&6&lRules&8&l]&r&8&m--------'
+rulesList1: '&71. No hacking or exploiting bugs.'
+rulesList2: '&72. No spamming or excessive caps.'
+rulesList3: '&73. Keep profanity to a minimum.'
+rulesList4: '&74. Do not disrespect other players.'
+rulesList5: '&75. Keep drama out of general chat.'
+rulesList6: '&76. No advertising.'
+# --Rules-- #
